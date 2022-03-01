@@ -6,6 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
   <title>Document</title>
+  <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+        var y = document.getElementById("nav");
+        if (y.style.display === "block") {
+          y.style.display = "none";
+        } else {
+          y.style.display = "block";
+        }
+      }
+
+      function game(){
+
+      }
+
+      function scoreboard(){
+
+      }
+
+      function aboot(){
+
+      }
+
+    </script>
+
+
+
 </head>
 <body>
   <div class="container" onclick="myFunction(this)">
@@ -16,21 +43,25 @@
   </div>
   <br>
   <div class="container" id="nav">
-    <button name="retry" class="button">restart</button><br>
-    <button name="leaderboard" class="button">score board</button><br>
-    <button name="boot" class="button">aboot</button>
+    <button class="button" onClick="game()">restart</button><br>
+    <button class="button" onClick="scoreboard()">score board</button><br>
+    <button class="button" onClick="aboot()">aboot</button>
   </div>
     
-  <script>
-    function myFunction(x) {
-      x.classList.toggle("change");
-      var y = document.getElementById("nav");
-      if (y.style.display === "block") {
-        y.style.display = "none";
-      } else {
-        y.style.display = "block";
-      }
-    }
-  </script>
+  <div class="content">
+    <div class="game">
+
+    </div>
+    <div class="boot">
+
+    </div>
+    <div class="scoreboard">
+
+    </div>
+  </div>
+  <footer>
+    a quick project by Jann Tötterman, Jonathan Antfolk, Emil Gyllendahl och Anton Wiklund
+  </footer>
+
 </body>
 </html>

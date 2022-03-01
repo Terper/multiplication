@@ -10,9 +10,6 @@ body {
   width: 100vw;
 }
 
-
-
-
 #nav .button {
   border: none;
   color: black;
@@ -27,6 +24,8 @@ body {
 #nav {
   margin-top: 0px; 
   display: none;
+  width: 10vw !important;
+  margin-right: 0px !important;
 }
 
 .container {
@@ -52,4 +51,32 @@ body {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+footer {
+  position: absolute;
+  left: 20px;
+  top: 97vh;
+}
+
+.content {
+  margin: 10%;
+  margin-top: 0px;
+  width: 80vw;
+  height: 80vh;
+  border: 1px black solid;
+}
+
+.game {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.boot {
+  display: none;
+}
+
+.scoreboard {
+  display: none;
 }
