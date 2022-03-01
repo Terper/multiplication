@@ -1,37 +1,18 @@
 html {
     overflow: hidden;
-}
+    background-image: url(../bilder/multibakground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  }
 
 body {
     margin: 0px;
     height: 100vh;
     width: 100vw;
-}
-
-.parent {
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 0.5fr 2fr 0.4fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
     
-    .div1 {
-         grid-area: 3 / 1 / 4 / 4; 
-         border: 1px black solid;
-        }
-    .div2 {
-         grid-area: 1 / 3 / 4 / 4;
-         border: 1px black solid; 
-        }
-    .div3 { 
-        grid-area: 1 / 1 / 3 / 3;
-        border: 1px black solid; 
-    }
-    .div4 {
-         grid-area: 1 / 1 / 2 / 2; 
-         border: 1px black solid;
-        }
+}
+    
 
 .container {
   display: inline-block;
