@@ -12,11 +12,24 @@
     <div class="bar1"></div>
     <div class="bar2"></div>
     <div class="bar3"></div>
+    
+  </div>
+  <br>
+  <div class="container" id="nav">
+    <button name="retry" class="button">restart</button><br>
+    <button name="leaderboard" class="button">score board</button><br>
+    <button name="boot" class="button">aboot</button>
   </div>
     
   <script>
     function myFunction(x) {
       x.classList.toggle("change");
+      var y = document.getElementById("nav");
+      if (y.style.display === "block") {
+        y.style.display = "none";
+      } else {
+        y.style.display = "block";
+      }
     }
   </script>
 </body>
