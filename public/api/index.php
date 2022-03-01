@@ -16,7 +16,7 @@ $db = new PDO($dsn);
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri = explode( '/', $uri );
 
-print_r($uri);
+print_r($dbopts);
 
 if($db){
   echo "Connected <br />".$db;
